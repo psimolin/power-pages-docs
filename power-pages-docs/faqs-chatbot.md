@@ -36,7 +36,7 @@ More evaluation was performed over custom datasets for offensive and malicious p
 
 ### Alignment Calculation for Individual Test Cases
 
-For each test case, alignment between AI-generated responses and human expectations is calculated using a clean interpolation from 100% (perfect match) to 0% (maximally different).
+For each test case, alignment between AI-generated responses and human expectations is calculated using a linear interpolation from 100% (perfect match) to 0% (maximally different).
 
 **Interpretation:**
 - When AI grade = Human grade, alignment = 100%
