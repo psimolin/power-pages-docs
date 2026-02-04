@@ -45,7 +45,7 @@ For each test case, alignment between AI-generated responses and human expectati
 
 **Formula:**
 
-alignment = 100% × (1 - |AI - Human| / 4)
+alignment = 100% * (1 - |AI - Human| / 4)
 
 **Resulting Alignment Matrix:**
 
